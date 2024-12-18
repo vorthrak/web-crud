@@ -1,7 +1,7 @@
 # web-crud
 # instalation in server
 > sudo apt install apache2 php libapache2-mod-php php-mysql unzip
-sudo apt install mysql-client -y
+> sudo apt install mysql-client -y
 mysql -h <RDS-endpoint> -u <master-username> -p
 sudo systemctl restart apache2
 # create databse sql
