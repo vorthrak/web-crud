@@ -16,7 +16,7 @@ require_once('koneksi.php');
 		
 		// simpan data barang
 		
-		$sql = 'INSERT INTO tabel_barang (nama_barang,stok,harga_barang,tgl_masuk)VALUES (?,?,?,?)';
+		$sql = 'INSERT INTO <nama table> (nama_barang,stok,harga_barang,tgl_masuk)VALUES (?,?,?,?)';
 		$row = $koneksi->prepare($sql);
 		$row->execute($data);
 		
