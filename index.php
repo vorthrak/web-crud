@@ -24,7 +24,7 @@
 						<th style="text-align: center;">Actions</th>
 					</tr>
 					 <?php
-						$sql = "SELECT * FROM tabel_barang";
+						$sql = "SELECT * FROM <nama table>";
 						$row = $koneksi->prepare($sql);
 						$row->execute();
 						$hasil = $row->fetchAll();
