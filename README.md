@@ -5,7 +5,7 @@
 - ```mysql -h <RDS-endpoint> -u <master-username> -p```
 - ```sudo systemctl restart apache2```
 ---
-# create databse sql
+# create database sql
 ```sql
 CREATE DATABASE sarana;
 USE sarana;
