@@ -1,10 +1,10 @@
 <?php
  require_once('koneksi.php');
-	$user  = 'root';
-	$pass = '';
+	$user  = '<username>';
+	$pass = '<password>';
 	try {
 		// buat koneksi dengan database
-		$koneksi = new PDO('mysql:host=localhost;dbname=sarana;',$user,$pass);
+		$koneksi = new PDO('mysql:host=<enpoint database>;dbname=<nama database>;',$user,$pass);
 		// set error mode
 		$koneksi->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 	}catch (PDOException $e) {
