@@ -18,7 +18,7 @@ require_once('koneksi.php');
 		
 		// simpan data barang
 		
-		$sql = 'UPDATE tabel_barang SET nama_barang=?,stok=?,harga_barang=?,tgl_masuk=? WHERE id_barang=?';
+		$sql = 'UPDATE <nama table> SET nama_barang=?,stok=?,harga_barang=?,tgl_masuk=? WHERE id_barang=?';
 		$row = $koneksi->prepare($sql);
 		$row->execute($data);
 		
@@ -27,7 +27,7 @@ require_once('koneksi.php');
 	}
 	// untuk menampilkan data barang berdasarkan id barang
 	$id = $_GET['id'];
-	$sql = "SELECT *FROM tabel_barang WHERE id_barang= ?";
+	$sql = "SELECT *FROM <nama table> WHERE id_barang= ?";
 	$row = $koneksi->prepare($sql);
 	$row->execute(array($id));
 	$hasil = $row->fetch();
