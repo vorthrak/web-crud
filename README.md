@@ -1,6 +1,6 @@
 # web-crud
-## instalation in server
-- ```sudo apt update -y```
+## configuration in server
+- ```sudo apt update && upgrade -y```
 - ```sudo apt install apache2 php libapache2-mod-php mysql-client php-mysql unzip -y```
 - ```sudo systemctl start apache2```
 - ```sudo systemctl enable apache2```
@@ -20,5 +20,6 @@ CREATE TABLE <nama table> (
   tgl_masuk VARCHAR(255)
 );
 SELECT * FROM <nama table>;
+exit;
 ```
 ---
