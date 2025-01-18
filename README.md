@@ -8,7 +8,7 @@
 - ```cd /var/www/<taruh file>```
 - ```sudo systemctl restart apache2```
 ---
-## create database sql
+## create database
 ```sql
 CREATE DATABASE <nama database>;
 USE <nama database>;
@@ -19,9 +19,6 @@ CREATE TABLE <nama table> (
   harga_barang INT(11),
   tgl_masuk VARCHAR(255)
 );
-```
----
-## see item in database
-- ```SELECT * FROM <nama table>;```
+SELECT * FROM <nama table>;```
 ---
 
