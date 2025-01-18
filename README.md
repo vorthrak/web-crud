@@ -8,7 +8,7 @@
 - ```cd /var/www/<taruh file>```
 - ```sudo systemctl restart apache2```
 ---
-# create database sql
+## create database sql
 ```sql
 CREATE DATABASE <nama database>;
 USE <nama database>;
