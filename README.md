@@ -19,6 +19,6 @@ CREATE TABLE <nama table> (
   harga_barang INT(11),
   tgl_masuk VARCHAR(255)
 );
-SELECT * FROM <nama table>;```
+SELECT * FROM <nama table>;
+```
 ---
-
