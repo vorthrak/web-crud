@@ -4,7 +4,7 @@
 - ```sudo apt install apache2 php libapache2-mod-php mysql-client php-mysql unzip -y```
 - ```sudo systemctl start apache2```
 - ```sudo systemctl enable apache2```
-- ```mysql -h <RDS-endpoint> -u <master-username> -p```
+- ```mysql -h <endpoint database> -u <username> -p```
 - ```cd /var/www/<taruh file>```
 - ```sudo systemctl restart apache2```
 ---
