@@ -1,6 +1,6 @@
 # web-crud
 ## configuration in server
-- ```sudo apt update && upgrade -y```
+- ```sudo apt update -y```
 - ```sudo apt install apache2 php libapache2-mod-php mysql-client php-mysql unzip -y```
 - ```sudo systemctl start apache2```
 - ```sudo systemctl enable apache2```
